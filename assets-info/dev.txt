@@ -12,3 +12,6 @@ nest g service tasks --no-spec
 
 
 npm install --save uuid
+
+
+taskkill /F /IM node.exe
