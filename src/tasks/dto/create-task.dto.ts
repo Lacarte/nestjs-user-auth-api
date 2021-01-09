@@ -4,7 +4,7 @@ import { IsNotEmpty } from 'class-validator';
 export class CreateTaskDto {
   @ApiProperty()
   @IsNotEmpty()
-  title: string;
+  title: string;g
 
   @ApiProperty()
   @IsNotEmpty()
