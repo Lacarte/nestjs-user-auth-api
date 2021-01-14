@@ -15,3 +15,18 @@ npm install --save uuid
 
 
 taskkill /F /IM node.exe
+
+
+PIPE is used for data validation or  daa transformation
+ex:
+ValidationPipe
+ParseIntPipe
+
+pipe type :
+Handler-level pipes  ae defines at the handler level via -> @usesPipe() decorator
+ 
+Parameter level Pipe:
+
+Global Pipe:
+are used in the application level and will be applied to any incomming request 
+within the applicaion
